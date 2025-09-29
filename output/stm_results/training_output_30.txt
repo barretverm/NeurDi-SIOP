@@ -1,0 +1,185 @@
+Building corpus... 
+Converting to Lower Case... 
+Removing punctuation... 
+Removing stopwords... 
+Removing numbers... 
+Stemming... 
+Creating Output... 
+Beginning Spectral Initialization 
+         Calculating the gram matrix...
+         Using only 10000 most frequent terms during initialization...
+         Finding anchor words...
+        ..............................
+         Recovering initialization...
+        ...................................................................................................
+Initialization complete.
+....................................................................................................
+Completed E-Step (9 seconds). 
+Completed M-Step. 
+Completing Iteration 1 (approx. per word bound = -7.586) 
+....................................................................................................
+Completed E-Step (8 seconds). 
+Completed M-Step. 
+Completing Iteration 2 (approx. per word bound = -7.286, relative change = 3.958e-02) 
+....................................................................................................
+Completed E-Step (7 seconds). 
+Completed M-Step. 
+Completing Iteration 3 (approx. per word bound = -7.149, relative change = 1.882e-02) 
+....................................................................................................
+Completed E-Step (6 seconds). 
+Completed M-Step. 
+Completing Iteration 4 (approx. per word bound = -7.091, relative change = 8.117e-03) 
+....................................................................................................
+Completed E-Step (6 seconds). 
+Completed M-Step. 
+Completing Iteration 5 (approx. per word bound = -7.060, relative change = 4.341e-03) 
+Topic 1: love, event, much, book, convers 
+ Topic 2: peopl, disabl, like, learn, talk 
+ Topic 3: stori, one, activ, call, tend 
+ Topic 4: proud, work, find, workplac, worldwid 
+ Topic 5: help, experi, share, rais, celebr 
+ Topic 6: support, sign, launch, pleas, gender 
+ Topic 7: discuss, webinar, free, read, resourc 
+ Topic 8: need, learn, differ, disord, environ 
+ Topic 9: celebr, support, differ, challeng, neurolog 
+ Topic 10: like, colleagu, well, feel, support 
+ Topic 11: shirt, come, brain, toward, way 
+ Topic 12: everyon, autism, special, educ, children 
+ Topic 13: thing, check, spectrum, ive, special 
+ Topic 14: right, speaker, social, next, still 
+ Topic 15: kid, realli, say, use, studi 
+ Topic 16: join, learn, episod, power, link 
+ Topic 17: adhd, dyslexia, autism, autist, includ 
+ Topic 18: look, articl, benefit, new, happi 
+ Topic 19: understand, peopl, differ, neurotyp, person 
+ Topic 20: thank, awar, misconcept, march, day 
+ Topic 21: world, autism, topic, symbol, photograph 
+ Topic 22: mental, health, think, way, brain 
+ Topic 23: mind, recognis, talent, challeng, bring 
+ Topic 24: autism, autist, cant, book, servic 
+ Topic 25: today, regist, share, join, part 
+ Topic 26: train, staff, univers, requir, petit 
+ Topic 27: even, one, adhd, make, see 
+ Topic 28: accept, let, embrac, understand, togeth 
+ Topic 29: make, take, place, part, peopl 
+ Topic 30: support, today, event, talk, understand 
+....................................................................................................
+Completed E-Step (6 seconds). 
+Completed M-Step. 
+Completing Iteration 6 (approx. per word bound = -7.041, relative change = 2.676e-03) 
+....................................................................................................
+Completed E-Step (6 seconds). 
+Completed M-Step. 
+Completing Iteration 7 (approx. per word bound = -7.027, relative change = 1.926e-03) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 8 (approx. per word bound = -7.016, relative change = 1.589e-03) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 9 (approx. per word bound = -7.008, relative change = 1.202e-03) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 10 (approx. per word bound = -7.002, relative change = 7.716e-04) 
+Topic 1: love, event, parent, book, much 
+ Topic 2: peopl, disabl, autist, learn, mani 
+ Topic 3: one, stori, call, activ, tend 
+ Topic 4: work, workplac, find, proud, individu 
+ Topic 5: help, share, experi, rais, watch 
+ Topic 6: launch, session, gender, sign, divers 
+ Topic 7: discuss, webinar, read, resourc, free 
+ Topic 8: need, learn, environ, employe, approach 
+ Topic 9: celebr, support, differ, challeng, neurolog 
+ Topic 10: like, well, feel, colleagu, wonder 
+ Topic 11: shirt, come, toward, model, therapi 
+ Topic 12: everyon, educ, special, info, group 
+ Topic 13: thing, check, spectrum, ive, communic 
+ Topic 14: right, next, still, social, time 
+ Topic 15: realli, say, kid, use, studi 
+ Topic 16: join, link, explor, learn, episod 
+ Topic 17: adhd, dyslexia, autism, includ, condit 
+ Topic 18: look, articl, benefit, new, design 
+ Topic 19: person, mean, neurotyp, understand, divers 
+ Topic 20: thank, awar, day, march, school 
+ Topic 21: autism, world, topic, movement, symbol 
+ Topic 22: way, think, mental, health, brain 
+ Topic 23: mind, talent, uniqu, bring, recognis 
+ Topic 24: autist, autism, servic, women, cant 
+ Topic 25: talk, today, regist, amaz, join 
+ Topic 26: train, staff, univers, requir, petit 
+ Topic 27: even, adhd, one, see, home 
+ Topic 28: accept, understand, inclus, let, embrac 
+ Topic 29: make, take, place, part, got 
+ Topic 30: today, know, inform, talk, start 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 11 (approx. per word bound = -6.998, relative change = 6.340e-04) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 12 (approx. per word bound = -6.994, relative change = 5.094e-04) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 13 (approx. per word bound = -6.992, relative change = 3.703e-04) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 14 (approx. per word bound = -6.990, relative change = 2.610e-04) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 15 (approx. per word bound = -6.989, relative change = 1.771e-04) 
+Topic 1: event, love, book, children, parent 
+ Topic 2: peopl, disabl, autist, mani, young 
+ Topic 3: one, stori, call, activ, asperg 
+ Topic 4: work, workplac, find, individu, better 
+ Topic 5: help, share, experi, rais, blog 
+ Topic 6: session, hope, divers, launch, gender 
+ Topic 7: discuss, read, resourc, free, webinar 
+ Topic 8: need, learn, environ, employe, employ 
+ Topic 9: celebr, support, differ, challeng, neurolog 
+ Topic 10: like, well, feel, know, colleagu 
+ Topic 11: come, shirt, medic, therapi, teacher 
+ Topic 12: everyon, educ, group, info, special 
+ Topic 13: thing, check, spectrum, ive, communic 
+ Topic 14: time, year, right, next, still 
+ Topic 15: realli, say, kid, use, dont 
+ Topic 16: link, join, explor, learn, episod 
+ Topic 17: adhd, dyslexia, includ, autism, diagnosi 
+ Topic 18: look, articl, new, benefit, design 
+ Topic 19: person, mean, neurotyp, life, affirm 
+ Topic 20: thank, awar, day, march, school 
+ Topic 21: autism, world, topic, movement, symbol 
+ Topic 22: way, think, brain, mental, health 
+ Topic 23: mind, uniqu, talent, bring, recognis 
+ Topic 24: autist, women, servic, autism, brilliant 
+ Topic 25: talk, today, amaz, regist, join 
+ Topic 26: train, staff, univers, requir, petit 
+ Topic 27: even, anoth, see, home, bit 
+ Topic 28: inclus, understand, accept, let, chang 
+ Topic 29: make, take, part, place, get 
+ Topic 30: start, know, import, communiti, highlight 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 16 (approx. per word bound = -6.988, relative change = 1.243e-04) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 17 (approx. per word bound = -6.987, relative change = 8.992e-05) 
+....................................................................................................
+Completed E-Step (4 seconds). 
+Completed M-Step. 
+Completing Iteration 18 (approx. per word bound = -6.987, relative change = 7.268e-05) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Completing Iteration 19 (approx. per word bound = -6.987, relative change = 3.300e-05) 
+....................................................................................................
+Completed E-Step (5 seconds). 
+Completed M-Step. 
+Model Converged

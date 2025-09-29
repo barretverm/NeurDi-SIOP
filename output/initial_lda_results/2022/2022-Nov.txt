@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.036*"neurodiversity" + 0.010*"support" + 0.010*"work" + 0.009*"people" + 0.008*"neurodivergent" + 0.007*"autism" + 0.007*"neurodiverse" + 0.006*"workplace" + 0.006*"learn" + 0.006*"help"
+
+Topic 2:
+0.032*"neurodiversity" + 0.006*"workplace" + 0.005*"autism" + 0.004*"adhd" + 0.004*"learning" + 0.004*"get" + 0.004*"thinking" + 0.004*"students" + 0.004*"team" + 0.004*"also"
+
+Topic 3:
+0.039*"neurodiversity" + 0.013*"autism" + 0.007*"people" + 0.006*"autistic" + 0.006*"like" + 0.006*"much" + 0.005*"adhd" + 0.005*"im" + 0.004*"dont" + 0.004*"really"
+
+Topic 4:
+0.028*"neurodiversity" + 0.010*"us" + 0.009*"pm" + 0.008*"join" + 0.007*"free" + 0.007*"th" + 0.007*"webinar" + 0.006*"today" + 0.006*"event" + 0.005*"new"
+
+Topic 5:
+0.049*"neurodiversity" + 0.019*"people" + 0.011*"like" + 0.008*"many" + 0.007*"mental" + 0.007*"adhd" + 0.006*"think" + 0.006*"autistic" + 0.006*"one" + 0.006*"different"
+

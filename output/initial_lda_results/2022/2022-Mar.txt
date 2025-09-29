@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.047*"neurodiversity" + 0.019*"week" + 0.011*"support" + 0.009*"us" + 0.009*"celebrate" + 0.009*"celebrating" + 0.008*"today" + 0.008*"work" + 0.007*"neurodivergent" + 0.007*"march"
+
+Topic 2:
+0.041*"symbol" + 0.039*"infinity" + 0.039*"autism" + 0.037*"neurodiversity" + 0.023*"rainbow" + 0.023*"needs" + 0.021*"piece" + 0.020*"general" + 0.020*"fit" + 0.019*"gold"
+
+Topic 3:
+0.036*"neurodiversity" + 0.008*"adhd" + 0.007*"health" + 0.007*"autism" + 0.006*"resources" + 0.005*"autistic" + 0.005*"mental" + 0.005*"children" + 0.005*"support" + 0.005*"needs"
+
+Topic 4:
+0.102*"week" + 0.093*"neurodiversity" + 0.092*"celebration" + 0.067*"part" + 0.059*"take" + 0.052*"shout" + 0.051*"registering" + 0.012*"uk" + 0.009*"london" + 0.007*"thank"
+
+Topic 5:
+0.038*"neurodiversity" + 0.019*"people" + 0.012*"like" + 0.010*"autism" + 0.008*"autistic" + 0.008*"think" + 0.007*"different" + 0.007*"know" + 0.007*"adhd" + 0.007*"one"
+

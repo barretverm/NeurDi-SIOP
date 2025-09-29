@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.034*"neurodiversity" + 0.020*"autism" + 0.016*"autistic" + 0.012*"people" + 0.006*"different" + 0.006*"like" + 0.004*"one" + 0.004*"shirt" + 0.004*"brilliant" + 0.004*"also"
+
+Topic 2:
+0.020*"neurodiversity" + 0.008*"new" + 0.006*"book" + 0.006*"article" + 0.005*"key" + 0.005*"us" + 0.005*"read" + 0.005*"work" + 0.005*"via" + 0.005*"could"
+
+Topic 3:
+0.041*"neurodiversity" + 0.011*"people" + 0.009*"like" + 0.005*"autism" + 0.005*"one" + 0.004*"would" + 0.004*"need" + 0.004*"nd" + 0.004*"know" + 0.004*"think"
+
+Topic 4:
+0.040*"neurodiversity" + 0.011*"neurodivergent" + 0.010*"people" + 0.010*"workplace" + 0.009*"support" + 0.008*"adhd" + 0.007*"us" + 0.006*"inclusive" + 0.005*"neurodiverse" + 0.005*"check"
+
+Topic 5:
+0.044*"neurodiversity" + 0.012*"week" + 0.010*"march" + 0.010*"join" + 0.008*"th" + 0.008*"pm" + 0.007*"free" + 0.007*"autism" + 0.007*"register" + 0.006*"us"
+

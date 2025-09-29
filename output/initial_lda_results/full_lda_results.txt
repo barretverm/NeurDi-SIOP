@@ -1,0 +1,32 @@
+Num_topics: 10. Num_passes: 10
+
+Topic 1:
+0.012*"meet" + 0.011*"created" + 0.010*"national" + 0.010*"topic" + 0.010*"excellent" + 0.009*"shares" + 0.009*"umbrella" + 0.009*"st" + 0.009*"population" + 0.009*"library"
+
+Topic 2:
+0.022*"like" + 0.017*"know" + 0.015*"im" + 0.015*"people" + 0.013*"one" + 0.013*"would" + 0.011*"get" + 0.010*"time" + 0.010*"make" + 0.010*"things"
+
+Topic 3:
+0.088*"autism" + 0.036*"adhd" + 0.024*"awareness" + 0.023*"autistic" + 0.021*"acceptance" + 0.019*"day" + 0.017*"spectrum" + 0.012*"world" + 0.012*"project" + 0.012*"celebrate"
+
+Topic 4:
+0.038*"differences" + 0.025*"dyslexia" + 0.025*"neurological" + 0.022*"challenges" + 0.021*"initiative" + 0.018*"unique" + 0.017*"supporting" + 0.016*"strengths" + 0.016*"embrace" + 0.011*"world"
+
+Topic 5:
+0.142*"celebration" + 0.056*"part" + 0.036*"take" + 0.030*"worldwide" + 0.029*"require" + 0.017*"minds" + 0.017*"symbol" + 0.016*"taking" + 0.016*"video" + 0.010*"rainbow"
+
+Topic 6:
+0.040*"people" + 0.024*"autistic" + 0.022*"autism" + 0.015*"different" + 0.010*"movement" + 0.010*"many" + 0.010*"think" + 0.009*"one" + 0.009*"brain" + 0.008*"human"
+
+Topic 7:
+0.041*"support" + 0.018*"staff" + 0.017*"help" + 0.015*"children" + 0.014*"proud" + 0.014*"students" + 0.013*"learning" + 0.013*"stereotypes" + 0.012*"misconceptions" + 0.011*"learn"
+
+Topic 8:
+0.020*"us" + 0.020*"join" + 0.015*"free" + 0.014*"today" + 0.014*"march" + 0.013*"event" + 0.011*"pm" + 0.010*"train" + 0.009*"next" + 0.009*"new"
+
+Topic 9:
+0.030*"mental" + 0.028*"health" + 0.017*"adhd" + 0.016*"much" + 0.009*"issues" + 0.008*"gender" + 0.008*"diagnosed" + 0.007*"disability" + 0.006*"class" + 0.006*"diagnosis"
+
+Topic 10:
+0.024*"workplace" + 0.023*"thank" + 0.020*"read" + 0.017*"work" + 0.016*"article" + 0.016*"great" + 0.015*"new" + 0.015*"thanks" + 0.012*"check" + 0.011*"supporting"
+

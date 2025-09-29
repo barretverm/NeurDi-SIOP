@@ -1,0 +1,59 @@
+Topic 1 Top Words:
+	Highest Prob: make, read, student, love, children, dyslexia, inclus, access, shirt, listen 
+	FREX: make, read, children, dyslexia, access, shirt, give, best, podcast, episod 
+	Lift: aathman, acceler, ahern, alot, amelia, amend, arithmet, arrest, bailey, besid 
+	Score: shirt, read, make, student, dyslexia, love, episod, podcast, inclus, children 
+
+Topic 2 Top Words:
+	Highest Prob: like, think, autist, know, help, thing, person, mani, mean, also 
+	FREX: person, neurotyp, alway, someon, affirm, someth, sure, seem, that, might 
+	Lift: accid, admir, advertis, ala, alleg, ambani, anguish, anniversari, anorexia, anti 
+	Score: autist, like, think, person, feel, thing, mean, say, neurotyp, affirm 
+
+Topic 3 Top Words:
+	Highest Prob: celebr, support, differ, challeng, neurolog, proud, understand, stereotyp, misconcept, accept 
+	FREX: support, differ, challeng, neurolog, proud, stereotyp, misconcept, accept, initi, worldwid 
+	Lift: anosognosia, broadfutur, eilish, honer, odger, pshe, refut, revisit, selfaccept, siena 
+	Score: celebr, misconcept, worldwid, stereotyp, initi, neurolog, differ, challeng, support, proud 
+
+Topic 4 Top Words:
+	Highest Prob: need, talk, disabl, world, includ, well, topic, better, learn, still 
+	FREX: need, disabl, topic, better, still, diagnosi, photograph, blogger, jaimegraceuk, consid 
+	Lift: accord, aesthet, autismmeet, autonom, backlash, beacon, bradi, brainwash, brew, cara 
+	Score: jaimegraceuk, blogger, photograph, need, topic, world, talk, disabl, includ, diagnosi 
+
+Topic 5 Top Words:
+	Highest Prob: autism, adhd, train, get, staff, univers, requir, petit, right, pleas 
+	FREX: autism, adhd, train, get, staff, univers, requir, petit, show, child 
+	Lift: acc, accentur, admin, alcohol, alien, anxiousavoid, artifici, assessor, attentiondeficit, auti 
+	Score: petit, requir, autism, train, univers, staff, adhd, symbol, get, infin 
+
+Topic 6 Top Words:
+	Highest Prob: peopl, work, way, awar, experi, use, brain, communiti, live, everyon 
+	FREX: way, rais, condit, famili, approach, manag, describ, concept, function, interact 
+	Lift: analyz, asian, aut, awarenessrais, bionic, broad, businesss, buzzword, calcul, canva 
+	Score: peopl, way, work, brain, awar, use, experi, live, communiti, rais 
+
+Topic 7 Top Words:
+	Highest Prob: thank, workplac, look, new, great, take, import, check, articl, start 
+	FREX: thank, workplac, great, import, articl, around, lot, benefit, busi, blog 
+	Lift: adhdadultuk, adjac, agreement, ali, antithet, asasumasu, autismfriend, avalanch, awkward, biomed 
+	Score: thank, workplac, great, articl, look, take, new, check, import, blog 
+
+Topic 8 Top Words:
+	Highest Prob: learn, today, join, event, day, march, free, book, discuss, part 
+	FREX: today, join, event, day, march, free, team, stori, resourc, webinar 
+	Lift: date, deleg, hert, hub, panelist, ticket, tonight, activ, alongsid, band 
+	Score: event, join, march, free, webinar, today, odd, regist, activ, book 
+
+Topic 9 Top Words:
+	Highest Prob: share, time, educ, school, want, year, research, much, interest, focus 
+	FREX: share, educ, school, year, focus, explor, watch, full, offer, brilliant 
+	Lift: candid, competit, input, luci, youth, abbey, aboiut, abolition, acamh, acclaim 
+	Score: share, school, educ, year, research, time, want, explor, full, fantast 
+
+Topic 10 Top Words:
+	Highest Prob: see, mental, health, realli, neurodiverg, hope, women, question, within, anyon 
+	FREX: mental, health, realli, studi, medic, model, answer, twitter, clinic, past 
+	Lift: capac, cyber, doctor, aam, aback, abhor, ablist, abolish, abolitionist, abort 
+	Score: health, mental, realli, see, medic, women, model, hope, neurodiverg, question 

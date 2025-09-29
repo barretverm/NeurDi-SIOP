@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.049*"autism" + 0.042*"neurodiversity" + 0.023*"symbol" + 0.023*"infinity" + 0.015*"month" + 0.015*"rainbow" + 0.014*"piece" + 0.014*"acceptance" + 0.013*"condition" + 0.012*"general"
+
+Topic 2:
+0.047*"neurodiversity" + 0.023*"autism" + 0.013*"spectrum" + 0.011*"awareness" + 0.011*"like" + 0.009*"mocked" + 0.009*"much" + 0.008*"month" + 0.008*"mental" + 0.008*"kids"
+
+Topic 3:
+0.018*"neurodiversity" + 0.006*"new" + 0.005*"hiring" + 0.004*"zetetick" + 0.004*"via" + 0.004*"housing" + 0.004*"social" + 0.004*"one" + 0.003*"service" + 0.003*"therapy"
+
+Topic 4:
+0.029*"neurodiversity" + 0.020*"people" + 0.010*"different" + 0.008*"autism" + 0.008*"neurodivergent" + 0.008*"world" + 0.008*"neurodiverse" + 0.007*"way" + 0.007*"read" + 0.007*"workplace"
+
+Topic 5:
+0.040*"neurodiversity" + 0.010*"people" + 0.010*"autistic" + 0.008*"work" + 0.007*"support" + 0.006*"great" + 0.006*"adhd" + 0.006*"im" + 0.006*"know" + 0.006*"autism"
+

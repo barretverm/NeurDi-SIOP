@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.036*"neurodiversity" + 0.013*"adhdtwitter" + 0.007*"different" + 0.007*"week" + 0.006*"part" + 0.006*"takes" + 0.006*"minds" + 0.006*"thank" + 0.006*"autism" + 0.006*"take"
+
+Topic 2:
+0.035*"neurodiversity" + 0.014*"people" + 0.013*"autistic" + 0.011*"autism" + 0.010*"please" + 0.005*"dont" + 0.004*"learning" + 0.004*"support" + 0.004*"social" + 0.004*"needs"
+
+Topic 3:
+0.046*"neurodiversity" + 0.013*"people" + 0.010*"like" + 0.007*"autism" + 0.007*"mental" + 0.006*"know" + 0.006*"things" + 0.006*"im" + 0.006*"one" + 0.006*"think"
+
+Topic 4:
+0.028*"neurodiversity" + 0.010*"working" + 0.008*"support" + 0.008*"challenges" + 0.006*"via" + 0.005*"book" + 0.005*"remote" + 0.005*"spotlights" + 0.005*"post" + 0.004*"students"
+
+Topic 5:
+0.040*"neurodiversity" + 0.009*"people" + 0.008*"new" + 0.008*"work" + 0.007*"diversity" + 0.006*"us" + 0.006*"autistic" + 0.006*"love" + 0.005*"adhd" + 0.005*"one"
+

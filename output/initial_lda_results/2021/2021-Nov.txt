@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.047*"neurodiversity" + 0.017*"initiative" + 0.017*"art" + 0.017*"supports" + 0.017*"brings" + 0.017*"moon" + 0.016*"landing" + 0.016*"nfts" + 0.016*"nonprofits" + 0.008*"us"
+
+Topic 2:
+0.039*"neurodiversity" + 0.018*"autism" + 0.009*"new" + 0.009*"podcast" + 0.007*"work" + 0.006*"neurodiverse" + 0.006*"human" + 0.005*"autistic" + 0.005*"episode" + 0.005*"book"
+
+Topic 3:
+0.048*"neurodiversity" + 0.011*"autism" + 0.008*"adhd" + 0.007*"much" + 0.006*"things" + 0.005*"start" + 0.005*"via" + 0.004*"disability" + 0.004*"day" + 0.004*"people"
+
+Topic 4:
+0.036*"neurodiversity" + 0.014*"people" + 0.008*"part" + 0.007*"like" + 0.007*"know" + 0.007*"think" + 0.006*"take" + 0.006*"school" + 0.006*"also" + 0.005*"different"
+
+Topic 5:
+0.029*"neurodiversity" + 0.014*"people" + 0.007*"autistic" + 0.007*"like" + 0.005*"us" + 0.005*"need" + 0.005*"autism" + 0.005*"adhd" + 0.005*"go" + 0.005*"good"
+

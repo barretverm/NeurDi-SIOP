@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.012*"neurodiversity" + 0.010*"people" + 0.009*"housing" + 0.007*"autistic" + 0.007*"zetetick" + 0.007*"living" + 0.006*"supported" + 0.005*"normal" + 0.005*"human" + 0.005*"please"
+
+Topic 2:
+0.032*"neurodiversity" + 0.008*"autism" + 0.007*"people" + 0.007*"like" + 0.007*"us" + 0.006*"year" + 0.005*"thank" + 0.005*"dont" + 0.005*"one" + 0.005*"adhd"
+
+Topic 3:
+0.038*"neurodiversity" + 0.013*"people" + 0.009*"autism" + 0.008*"autistic" + 0.007*"need" + 0.007*"work" + 0.006*"support" + 0.006*"like" + 0.005*"help" + 0.005*"adhd"
+
+Topic 4:
+0.034*"neurodiversity" + 0.006*"mental" + 0.006*"week" + 0.006*"today" + 0.005*"health" + 0.005*"part" + 0.005*"take" + 0.005*"us" + 0.004*"im" + 0.004*"th"
+
+Topic 5:
+0.051*"neurodiversity" + 0.010*"autism" + 0.008*"blog" + 0.008*"disability" + 0.007*"like" + 0.006*"people" + 0.006*"adhd" + 0.006*"read" + 0.005*"diversity" + 0.005*"us"
+

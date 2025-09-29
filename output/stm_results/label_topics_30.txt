@@ -1,0 +1,182 @@
+Topic 1 Top Words:
+	Highest Prob: event, love, book, children, parent, much, focus, convers, open, famili 
+	FREX: carer, parent, convers, children, love, much, open, scan, code, event 
+	Lift: afriad, glimmer, leann, participatori, unf, wth, aichu, ako, alok, autismroutin 
+	Score: event, love, parent, book, children, convers, much, carer, open, focus 
+
+Topic 2 Top Words:
+	Highest Prob: peopl, disabl, autist, mani, young, learn, appli, hard, actual, abl 
+	FREX: hard, abl, specialistern, appli, ableism, base, peopl, disabl, comfort, treat 
+	Lift: nathalia, takeyama, aci, adhdrel, alyson, amchp, antagonis, attir, avasquezneurodiversitycenterorg, bait 
+	Score: peopl, disabl, autist, young, appli, treat, mani, actual, hard, base 
+
+Topic 3 Top Words:
+	Highest Prob: one, stori, call, activ, asperg, tend, odd, issu, drive, citi 
+	FREX: pharmaci, asperg, odd, groceri, tend, interdisciplinari, multijourn, drive, store, stori 
+	Lift: accentur, audra, bottl, braun, chill, cookbook, cursiv, dyslexiafriend, groceri, hardofhear 
+	Score: one, stori, odd, tend, asperg, activ, call, pharmaci, drive, groceri 
+
+Topic 4 Top Words:
+	Highest Prob: work, workplac, find, individu, better, organis, network, member, offer, continu 
+	FREX: individu, workplac, network, organis, work, upcom, somewher, better, find, action 
+	Lift: alyssia, gds, hillari, sendm, shambl, supportyctdacuk, tier, toptier, ukrain, uncut 
+	Score: work, workplac, find, individu, better, network, organis, member, equal, somewher 
+
+Topic 5 Top Words:
+	Highest Prob: help, share, experi, rais, blog, live, excit, watch, great, read 
+	FREX: help, share, watch, begin, excit, rais, blog, experi, insight, gain 
+	Lift: annex, aubrey, awespir, banfield, bett, blanch, bolt, bookish, bookmark, bradshaw 
+	Score: share, help, experi, rais, blog, watch, excit, mark, live, insight 
+
+Topic 6 Top Words:
+	Highest Prob: session, hope, divers, launch, gender, art, excel, posit, contribut, show 
+	FREX: launch, festiv, gender, excel, professor, channel, deliv, art, soon, contribut 
+	Lift: ambani, atrium, irrespect, pig, bunni, christchurch, concuss, founderchairperson, gaeilg, haz 
+	Score: launch, session, gender, hope, excel, art, deliv, festiv, divers, soon 
+
+Topic 7 Top Words:
+	Highest Prob: discuss, read, free, resourc, webinar, learn, confer, inform, present, panel 
+	FREX: webinar, discuss, neuroinclus, resourc, fact, compani, panel, foster, recruit, polici 
+	Lift: customerbas, maxfieldtwin, alit, alta, anal, arount, atdhotmailcom, bechtold, boehn, brandon 
+	Score: discuss, webinar, free, resourc, panel, read, confer, present, attend, neuroinclus 
+
+Topic 8 Top Words:
+	Highest Prob: need, learn, employ, employe, environ, approach, disord, creat, support, accommod 
+	FREX: leader, learner, environ, need, advic, thrive, allow, approach, employe, adapt 
+	Lift: neurodiversitya, ondemand, athar, backend, blackbird, bricker, canari, cia, cognassist, colorit 
+	Score: need, environ, employe, employ, approach, learn, disord, accommod, leader, learner 
+
+Topic 9 Top Words:
+	Highest Prob: celebr, support, differ, challeng, neurolog, proud, stereotyp, misconcept, initi, worldwid 
+	FREX: stereotyp, initi, neurolog, misconcept, celebr, challeng, worldwid, proud, support, differ 
+	Lift: awp, befriend, dartmoor, ehc, featherston, feltham, furthermor, hatfield, iqm, littlehey 
+	Score: celebr, misconcept, stereotyp, worldwid, neurolog, initi, support, proud, challeng, differ 
+
+Topic 10 Top Words:
+	Highest Prob: like, know, well, feel, research, colleagu, give, wonder, best, ask 
+	FREX: wonder, give, seen, sure, chanc, best, like, review, well, done 
+	Lift: aalborg, bacteri, bedtim, bioethic, biraci, bsd, cahm, centralia, changer, chatbot 
+	Score: like, feel, well, colleagu, wonder, research, give, sure, know, best 
+
+Topic 11 Top Words:
+	Highest Prob: come, shirt, teacher, medic, therapi, model, toward, full, social, gift 
+	FREX: shirt, speech, vijashop, luci, gift, patholog, sped, cota, slpa, crowd 
+	Lift: alright, apsaragus, beingwhich, blogg, brainit, burnett, careerwis, childdirect, chopin, cic 
+	Score: shirt, come, model, vijashop, therapi, speech, teacher, medic, toward, gift 
+
+Topic 12 Top Words:
+	Highest Prob: everyon, educ, group, info, welcom, chat, via, job, nurs, join 
+	FREX: nurs, wigmor, concert, everyon, perfect, number, shine, job, stimulus, hall 
+	Lift: bea, beliz, envoy, itch, sennett, aest, ageassoci, annmari, antiaba, babysitt 
+	Score: everyon, educ, nurs, chat, group, info, welcom, wednesday, job, via 
+
+Topic 13 Top Words:
+	Highest Prob: thing, check, spectrum, ive, communic, teach, special, becom, updat, great 
+	FREX: webpag, communic, outsid, teach, box, updat, illustr, readi, task, avoid 
+	Lift: afirm, allin, arrog, beater, boba, bounc, brainrot, brainstem, brussel, camus 
+	Score: thing, check, ive, spectrum, communic, updat, teach, webpag, special, becom 
+
+Topic 14 Top Words:
+	Highest Prob: time, year, see, next, still, right, social, get, speaker, detail 
+	FREX: date, detail, seminar, still, room, despit, media, year, lectur, ago 
+	Lift: alzarez, anani, anxiousavoid, atlanta, bard, blep, botd, brooo, cadr, calli 
+	Score: time, year, still, right, next, speaker, social, detail, media, seminar 
+
+Topic 15 Top Words:
+	Highest Prob: realli, say, kid, dont, someon, also, use, struggl, tell, point 
+	FREX: point, kid, say, exist, enough, isnt, realli, struggl, anyth, difficult 
+	Lift: aboiut, abort, agnieszka, argh, autoplay, avalanch, benefactor, blockchain, bmj, bugger 
+	Score: say, kid, realli, point, dont, studi, someon, exist, yes, tell 
+
+Topic 16 Top Words:
+	Highest Prob: link, explor, join, learn, episod, new, host, latest, avail, miss 
+	FREX: link, discov, expert, power, episod, secur, latest, explor, kick, click 
+	Lift: bracknel, elmira, forrt, isra, kliman, marquett, stiff, slough, aam, acquisit 
+	Score: link, episod, explor, latest, avail, join, click, power, nation, expert 
+
+Topic 17 Top Words:
+	Highest Prob: adhd, dyslexia, includ, use, diagnosi, term, condit, video, often, word 
+	FREX: dyslexia, dyscalculia, diagnosi, might, condit, video, account, adhd, altern, often 
+	Lift: aderal, adha, aimmm, allon, anand, angst, animesh, ase, aunti, autismo 
+	Score: adhd, dyslexia, term, diagnosi, condit, dyspraxia, video, includ, might, dyscalculia 
+
+Topic 18 Top Words:
+	Highest Prob: look, articl, new, benefit, design, happi, great, lot, forward, take 
+	FREX: chess, forward, look, file, benefit, svg, design, key, barrier, courag 
+	Lift: cpi, dxf, abdin, alison, ama, anchor, annett, antipalestinian, apsyhol, bhupind 
+	Score: look, articl, benefit, design, forward, happi, chess, new, take, deloitt 
+
+Topic 19 Top Words:
+	Highest Prob: person, mean, neurotyp, life, child, affirm, diagnos, use, thought, neurodiverg 
+	FREX: neurotyp, essenti, normal, cure, natur, contact, product, affirm, mean, person 
+	Lift: ailment, aluma, anathema, angelld, antinatalist, antivaxer, archaic, asoci, biomark, bourgeoi 
+	Score: mean, neurotyp, person, affirm, life, normal, child, natur, diagnos, paradigm 
+
+Topic 20 Top Words:
+	Highest Prob: thank, awar, day, march, school, student, month, project, team, cours 
+	FREX: school, awar, thank, day, march, cours, campaign, champion, particip, film 
+	Lift: quad, basebal, brighttalk, calum, crossstich, karina, macleòid, mammi, maya, raglan 
+	Score: thank, awar, march, day, school, student, champion, particip, cours, programm 
+
+Topic 21 Top Words:
+	Highest Prob: autism, world, 
+Topic, movement, symbol, photograph, blogger, jaimegraceuk, someth, whole 
+	FREX: symbol, photograph, blogger, jaimegraceuk, 
+Topic, infin, rainbow, repres, whole, merg 
+	Lift: devis, blogger, adh, asnl, auadhd, barrigalarrivièr, bbq, bead, brat, burnt 
+	Score: autism, jaimegraceuk, blogger, photograph, world, 
+Topic, symbol, movement, infin, rainbow 
+
+Topic 22 Top Words:
+	Highest Prob: think, way, brain, mental, health, differ, human, ill, impact, idea 
+	FREX: mental, behav, interact, health, ill, way, stigma, unseen, misunderstood, wellb 
+	Lift: anosognosia, chant, lowincom, refut, abreast, acryl, amitv, ars, audac, automot 
+	Score: mental, think, health, way, brain, differ, human, ill, impact, interact 
+
+Topic 23 Top Words:
+	Highest Prob: uniqu, mind, strength, talent, bring, recognis, provid, skill, opportun, visit 
+	FREX: uniqu, bring, strength, respond, skill, mind, opportun, advantag, provid, recognis 
+	Lift: playhous, choral, saffron, acclaim, adob, aida, aldo, amphetamin, apologet, arcadia 
+	Score: uniqu, strength, talent, mind, recognis, bring, skill, creativ, valu, opportun 
+
+Topic 24 Top Words:
+	Highest Prob: women, servic, brilliant, autist, cant, autism, wait, syndrom, recommend, april 
+	FREX: scotland, legaci, neurotrib, england, gap, steve, wait, servic, brilliant, devon 
+	Lift: ancient, bajaña, benbow, brinnington, chocol, emmi, firefli, forbidden, kidnap, kindl 
+	Score: women, servic, cant, syndrom, wait, brilliant, bill, news, titl, autism 
+
+Topic 25 Top Words:
+	Highest Prob: talk, today, amaz, regist, join, listen, last, tomorrow, hear, interview 
+	FREX: journey, catch, amaz, head, jame, invit, regist, talk, tomorrow, bio 
+	Lift: bloke, chintal, evalynn, neurodiversitea, adhdadultuk, biomed, brendan, churchil, geolog, mhn 
+	Score: talk, today, regist, amaz, tomorrow, join, thursday, journey, listen, seri 
+
+Topic 26 Top Words:
+	Highest Prob: train, staff, univers, requir, petit, pleas, sign, tech, half, overlook 
+	FREX: requir, petit, train, staff, univers, mandatori, aathman, half, accompani, trash 
+	Lift: aborigin, alolan, amara, anthoney, apa, arbuthnott, augment, auto, boatang, brisban 
+	Score: petit, train, staff, requir, univers, pleas, sign, half, tech, measur 
+
+Topic 27 Top Words:
+	Highest Prob: even, tri, littl, anoth, rememb, home, bit, see, must, along 
+	FREX: even, walk, probabl, tutor, realis, nice, home, money, bit, oahu 
+	Lift: afcft, aint, alisdair, attn, atttend, austista, axbey, barbi, basketbal, beckmann 
+	Score: even, home, bit, tutor, anoth, must, littl, walk, along, tri 
+
+Topic 28 Top Words:
+	Highest Prob: understand, inclus, accept, let, chang, embrac, creat, togeth, narrat, promot 
+	FREX: accept, let, togeth, promot, narrat, embrac, chang, understand, inclus, coach 
+	Lift: adhdinclus, greenhous, sow, abhor, afterglow, aha, angi, anoint, asphyxia, autismcod 
+	Score: accept, let, understand, inclus, chang, embrac, togeth, narrat, creat, promot 
+
+Topic 29 Top Words:
+	Highest Prob: make, part, take, place, get, got, big, care, collect, fun 
+	FREX: place, display, make, kidsh, hes, hand, sayer, uncomfort, marri, round 
+	Lift: aday, ancestor, anneneudiceorg, antivaxx, auditoryvisualvestibular, batgirl, belfast, bethan, bettin, betw 
+	Score: make, take, part, place, got, big, librari, display, kidsh, sayer 
+
+Topic 30 Top Words:
+	Highest Prob: start, import, communiti, access, highlight, know, made, also, around, inform 
+	FREX: start, highlight, import, made, access, communiti, increas, commit, view, introduct 
+	Lift: breakfast, commit, torchbox, effort, highlight, introduct, start, made, increas, view 
+	Score: start, import, communiti, highlight, access, made, increas, commit, inform, know 

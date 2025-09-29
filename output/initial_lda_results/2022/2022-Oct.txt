@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.047*"neurodiversity" + 0.008*"work" + 0.006*"workplace" + 0.005*"join" + 0.005*"great" + 0.005*"support" + 0.005*"us" + 0.005*"future" + 0.005*"talk" + 0.004*"week"
+
+Topic 2:
+0.028*"neurodiversity" + 0.007*"understanding" + 0.006*"perspective" + 0.005*"family" + 0.005*"mental" + 0.004*"keeping" + 0.004*"cognitive" + 0.004*"emerges" + 0.003*"gopika" + 0.003*"kapoor"
+
+Topic 3:
+0.020*"adhd" + 0.018*"neurodiversity" + 0.009*"month" + 0.009*"video" + 0.008*"autism" + 0.007*"learn" + 0.007*"awareness" + 0.007*"new" + 0.006*"october" + 0.006*"day"
+
+Topic 4:
+0.038*"neurodiversity" + 0.024*"people" + 0.011*"autistic" + 0.010*"autism" + 0.009*"like" + 0.009*"think" + 0.007*"many" + 0.006*"one" + 0.006*"way" + 0.006*"also"
+
+Topic 5:
+0.042*"neurodiversity" + 0.010*"autism" + 0.008*"us" + 0.008*"education" + 0.007*"work" + 0.006*"today" + 0.005*"join" + 0.005*"inclusive" + 0.004*"shirt" + 0.004*"mental"
+

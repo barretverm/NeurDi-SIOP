@@ -1,0 +1,17 @@
+Num_topics: 5. Num_passes: 10
+
+Topic 1:
+0.035*"neurodiversity" + 0.015*"people" + 0.008*"read" + 0.007*"autism" + 0.007*"adhd" + 0.007*"support" + 0.007*"love" + 0.006*"like" + 0.005*"autistic" + 0.005*"post"
+
+Topic 2:
+0.031*"neurodiversity" + 0.015*"unique" + 0.015*"eye" + 0.014*"show" + 0.011*"one" + 0.011*"dyslexia" + 0.009*"dyslexic" + 0.009*"episode" + 0.009*"series" + 0.009*"welcome"
+
+Topic 3:
+0.053*"neurodiversity" + 0.012*"people" + 0.009*"mental" + 0.007*"work" + 0.007*"know" + 0.007*"workplace" + 0.006*"health" + 0.005*"also" + 0.005*"need" + 0.005*"like"
+
+Topic 4:
+0.031*"neurodiversity" + 0.006*"embrace" + 0.006*"psydiversity" + 0.006*"enough" + 0.005*"autism" + 0.005*"adhd" + 0.004*"time" + 0.004*"aeon" + 0.004*"child" + 0.004*"us"
+
+Topic 5:
+0.026*"neurodiversity" + 0.020*"autistic" + 0.012*"people" + 0.010*"like" + 0.010*"autism" + 0.009*"please" + 0.007*"new" + 0.007*"would" + 0.006*"get" + 0.005*"share"
+
