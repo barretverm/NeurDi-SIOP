@@ -1,4 +1,4 @@
-##### NEURODIVERSITY PREPROCESSING #####
+##### PREPROCESSING #####
 
 library(tidyverse)
 library(tidytext)
@@ -10,15 +10,16 @@ library(textstem)
 library(SnowballC)
 library(tm)
 
-# read in csv (replace with your file path)
-setwd('')
-data <- read.csv('', stringsAsFactors=F)
+# read in csv
+data <- read.csv('data/raw_data/2020/2020-Aug.csv', stringsAsFactors=F)
 
 # import list of british to american lexicon conversion
-lex <- read.csv("~/NeurDi/custom_lists/lexicon_conversion.csv",
+lex <- read.csv("dictionaries/lexicon_conversion.csv",
                 stringsAsFactors=F)
 british <- lex$british_lexicon 
-american <- lex$american_lexicon                   
+american <- lex$american_lexicon
+abbreviate  <- lex$abbreviate[lex$abbreviate != ""]
+abbreviation<- lex$abbreviation[lex$abbreviation != ""]
 
 
 # PREPROCESSING FUNCTION ----
@@ -33,25 +34,27 @@ clean <- function(x){
   
   # a lot of the duplicates were tweets with different links at the end
   # this helps filter them out
-  x$text <- gsub("\\bhttp\\S*\\s*","", x$text)   ## remove links ----
+  x$text <- gsub("\\bhttp\\S*\\s*"," ", x$text)   ## remove links ----
   x <- x[!duplicated(x$text),]                   ## remove duplicates ----
   
   x$text <- tolower(x$text)                      ## convert to lowercase ----
   # remove newline characters from the "text" column
-  x$text <- gsub("\n", "", x$text)
+  x$text <- gsub("\n", " ", x$text)
   
-  ## replace all "’" with "'" ----
-  # so that contractions are interpreted correctly
-  x$text <- str_replace_all(x$text,"’","'")
-  ## expand contractions ----
-  x$text <- replace_contraction(
-    x$text, ignore.case=F, sent.cap=F)             
+  # normalize apostrophes
+  x$text <- stringr::str_replace_all(x$text, "[\u2019\u2018\u02BC\u2032\u00B4\uFF07`´]", "'")
+  
+  # strip zero-width/format chars
+  x$text <- stringi::stri_replace_all_regex(x$text, "[\\p{Cf}]", "")
+  
+  # expand contractions
+  x$text <- replace_contraction(x$text, ignore.case = FALSE, sent.cap = FALSE)
   
   ## hashtags ----
   ### extract hashtags from the text column ----
   hashtags <- str_extract_all(x$text, "#\\w+")
   ### remove hashtags from the "text" column ----
-  x$text <- gsub("#\\w+", "", x$text)
+  x$text <- gsub("#\\w+", " ", x$text)
   ### create a new column with the extracted hashtags ----
   x$extracted_hashtags <- sapply(
     hashtags, function(x) paste(x, collapse = " "))
@@ -60,7 +63,7 @@ clean <- function(x){
   ### extract tagged users from the text column ----
   tagged <- str_extract_all(x$text, "@\\w+")
   ### remove tags from the "text" column ----
-  x$text <- gsub("@\\w+", "", x$text)
+  x$text <- gsub("@\\w+", " ", x$text)
   ### Create a new column with the extracted tags ----
   x$tagged <- sapply(
     tagged, function(x) paste(x, collapse = " "))
@@ -82,10 +85,17 @@ clean <- function(x){
     str = x$text, pattern = negation, replacement = negation_fixed, 
     stringi::stri_opts_fixed(case_insensitive=F))
   
-  # replace all bloody british spellings with american
+  # replace british spellings with american
   # apply
   x$text <- stringi::stri_replace_all_regex(
     str = x$text, pattern = british, replacement = american, 
+    stringi::stri_opts_fixed(case_insensitive=F))
+  
+  # replace attention deficit disorder & attention deficit hyperactivity disorder
+  # with ADHD
+  # apply
+  x$text <- stringi::stri_replace_all_regex(
+    str = x$text, pattern = abbreviate, replacement = abbreviation, 
     stringi::stri_opts_fixed(case_insensitive=F))
   
   ## remove stop words ----
@@ -96,10 +106,16 @@ clean <- function(x){
   # was getting messy results from removeWords - using tidytext instead
   # this also addresses white spaces
   
+  x$text <- gsub("\\s+", " ", x$text)   ## collapse multiple spaces into one ----
+  x$text <- trimws(x$text)              ## trim leading/trailing spaces ----
+  
+  
   return(x)
 }
 
 cleaned <- clean(data)
-write.csv(cleaned, "", row.names=F)
+
+write.csv(cleaned[1:800, 1:4], "test.csv", row.names=F)
+write.csv(data[1:800,1:4], "test2.csv", row.names = F)
 
 ############### NEED TO ADDRESS WORK-RELATED ACRONYMS (LIKE HR)
