@@ -1,121 +1,109 @@
 ##### PREPROCESSING #####
 
-library(tidyverse)
-library(tidytext)
-library(stringi)
-library(magrittr)
-library(qdapDictionaries)
-library(qdap)
-library(textstem)
-library(SnowballC)
-library(tm)
+library(tidyverse)        # data manipulation
+library(tidytext)         # tidy text processing
+library(stringi)          # string operations, regex
+library(magrittr)         # pipes (%>% / %<>%)
+library(qdapDictionaries) # contraction/negation dictionaries
+library(qdap)             # text cleaning (replace_contraction)
+library(textstem)         # lemmatization
+library(SnowballC)        # stemming (not directly used)
+library(tm)               # stopword/cleaning tools
+library(stringr)          # string helpers
 
-# read in csv
-data <- read.csv('data/raw_data/2020/2020-Aug.csv', stringsAsFactors=F)
+# lexicon conversion: british/canadian -> american
+lex <- read.csv("dictionaries/lexicon_conversion.csv", stringsAsFactors = FALSE)
+british  <- trimws(lex$british_lexicon)   # clean spaces
+american <- trimws(lex$american_lexicon)
 
-# import list of british to american lexicon conversion
-lex <- read.csv("dictionaries/lexicon_conversion.csv",
-                stringsAsFactors=F)
-british <- lex$british_lexicon 
-american <- lex$american_lexicon
-abbreviate  <- lex$abbreviate[lex$abbreviate != ""]
-abbreviation<- lex$abbreviation[lex$abbreviation != ""]
+# abbreviations
+abr <- read.csv("dictionaries/abbreviations.csv", stringsAsFactors = FALSE)
+abbreviate   <- trimws(abr$abbreviate)
+abbreviation <- trimws(abr$abbreviation)
 
 
 # PREPROCESSING FUNCTION ----
-clean <- function(x){
+clean_text <- function(x){
   
-  ## change NA to 999 to remove retweets and quotes ----
-  x %<>% 
-    mutate_all(~ifelse(is.na(.),999,.)) %>%
-    filter(sourcetweet_type != "retweeted"
-           & sourcetweet_type != "quoted") %>% 
-    filter(lang=="en")                           ## filter out non-english ----
+  ## handle NA values so they don't break filters
+  x$sourcetweet_type[is.na(x$sourcetweet_type)] <- "999"
+  x$lang[is.na(x$lang)] <- "999"
   
-  # a lot of the duplicates were tweets with different links at the end
-  # this helps filter them out
-  x$text <- gsub("\\bhttp\\S*\\s*"," ", x$text)   ## remove links ----
-  x <- x[!duplicated(x$text),]                   ## remove duplicates ----
+  # filter out retweets, quotes, and non-English
+  x <- x %>%
+    dplyr::filter(sourcetweet_type != "retweeted" &
+                    sourcetweet_type != "quoted") %>%
+    dplyr::filter(lang == "en")
   
-  x$text <- tolower(x$text)                      ## convert to lowercase ----
-  # remove newline characters from the "text" column
-  x$text <- gsub("\n", " ", x$text)
+  # remove links and duplicates
+  x$text <- gsub("\\bhttp\\S*\\s*", " ", x$text)
+  x <- x[!duplicated(x$text), ]
   
-  # normalize apostrophes
-  x$text <- stringr::str_replace_all(x$text, "[\u2019\u2018\u02BC\u2032\u00B4\uFF07`´]", "'")
-  
-  # strip zero-width/format chars
-  x$text <- stringi::stri_replace_all_regex(x$text, "[\\p{Cf}]", "")
+  # normalize text
+  x$text <- tolower(x$text)                                         # lowercase
+  x$text <- gsub("\n", " ", x$text)                                 # remove newlines
+  x$text <- stringr::str_replace_all(
+    x$text, "[\u2019\u2018\u02BC\u2032\u00B4\uFF07`´]", "'") # normalize apostrophes
+  x$text <- stringi::stri_replace_all_regex(x$text, "[\\p{Cf}]", "") # strip zero-width chars
   
   # expand contractions
   x$text <- replace_contraction(x$text, ignore.case = FALSE, sent.cap = FALSE)
+  x$text <- gsub("\\bim\\b", "i am", x$text, perl = TRUE)   # fix apostrophe-less "im"
   
-  ## hashtags ----
-  ### extract hashtags from the text column ----
-  hashtags <- str_extract_all(x$text, "#\\w+")
-  ### remove hashtags from the "text" column ----
-  x$text <- gsub("#\\w+", " ", x$text)
-  ### create a new column with the extracted hashtags ----
-  x$extracted_hashtags <- sapply(
-    hashtags, function(x) paste(x, collapse = " "))
+  ## extract hashtags
+  hashtags <- stringr::str_extract_all(x$text, "#\\w+")
+  x$text   <- gsub("#\\w+", " ", x$text)
+  x$extracted_hashtags <- sapply(hashtags, function(z) paste(z, collapse = " "))
   
-  ## tagged users ----
-  ### extract tagged users from the text column ----
-  tagged <- str_extract_all(x$text, "@\\w+")
-  ### remove tags from the "text" column ----
+  ## extract tagged users
+  tagged <- stringr::str_extract_all(x$text, "@\\w+")
   x$text <- gsub("@\\w+", " ", x$text)
-  ### Create a new column with the extracted tags ----
-  x$tagged <- sapply(
-    tagged, function(x) paste(x, collapse = " "))
+  x$tagged <- sapply(tagged, function(z) paste(z, collapse = " "))
   
-  x$text <- gsub("[[:punct:]]", "", x$text)      ## remove punctuation ----
-  x$text <- gsub("[[:digit:]]", "", x$text)      ## remove numbers ----
-  x$text <- lemmatize_strings(x$text)            ## lemmatize ----
+  # general cleaning
+  x$text <- gsub("[[:punct:]]", " ", x$text)  # strip other punctuation 
+  x$text <- gsub("[[:digit:]]", " ", x$text)  # remove digits
+  x$text <- lemmatize_strings(x$text)         # lemmatize
   
-  ## negations ----
-  # based on the negation words in `qdapDictionaries::negation.words`,
-  # create a vector with the negation words and one with the the
-  # negation words followed by '_'. Then apply the handle negation.
-  negation <- c(
-    "not ", "never ", "no ", "nobody ", "nor ", "neither ") 
-  negation_fixed <- c(
-    "not_", "never_", "no_", "nobody_", "nor_", "neither_")  
-  # apply
+  ## handle negations
+  negation <- c("not ", "never ", "no ", "nobody ", "nor ", "neither ")
+  negation_fixed <- c("not_", "never_", "no_", "nobody_", "nor_", "neither_")
   x$text <- stringi::stri_replace_all_regex(
-    str = x$text, pattern = negation, replacement = negation_fixed, 
-    stringi::stri_opts_fixed(case_insensitive=F))
+    x$text,
+    pattern = negation,
+    replacement = negation_fixed,
+    vectorize_all = FALSE
+  )
   
-  # replace british spellings with american
-  # apply
+  # british/canadian -> american
   x$text <- stringi::stri_replace_all_regex(
-    str = x$text, pattern = british, replacement = american, 
-    stringi::stri_opts_fixed(case_insensitive=F))
+    x$text,
+    pattern = british,
+    replacement = american,
+    vectorize_all = FALSE
+  )
   
-  # replace attention deficit disorder & attention deficit hyperactivity disorder
-  # with ADHD
-  # apply
+  # replace abbreviations (e.g., nd -> neurodiversity)
+  abbrev_patterns <- paste0("\\b", abbreviate, "\\b")  # add word boundaries
   x$text <- stringi::stri_replace_all_regex(
-    str = x$text, pattern = abbreviate, replacement = abbreviation, 
-    stringi::stri_opts_fixed(case_insensitive=F))
+    x$text,
+    pattern = abbrev_patterns,
+    replacement = abbreviation,
+    vectorize_all = FALSE
+  )
   
-  ## remove stop words ----
-  # x$text <- removeWords(x$text, words = stopwords::stopwords("en"))
-  # x$text <- gsub("[ |\t]{2,}", " ", x$text)      ## remove tabs ----
-  # x$text <- stri_trim(x$text)                    ## remove extra white space ----
+  # remove HTML artefacts
+  x$text <- gsub("&amp", " ", x$text)   
+  x$text <- gsub("amp",  " ", x$text) 
+  x$text <- gsub(" s ",  " is ", x$text) 
   
-  # was getting messy results from removeWords - using tidytext instead
-  # this also addresses white spaces
-  
-  x$text <- gsub("\\s+", " ", x$text)   ## collapse multiple spaces into one ----
-  x$text <- trimws(x$text)              ## trim leading/trailing spaces ----
-  
+  # tidy whitespace
+  x$text <- gsub("\\s+", " ", x$text)
+  x$text <- trimws(x$text)
   
   return(x)
 }
 
-cleaned <- clean(data)
-
-write.csv(cleaned[1:800, 1:4], "test.csv", row.names=F)
-write.csv(data[1:800,1:4], "test2.csv", row.names = F)
-
-############### NEED TO ADDRESS WORK-RELATED ACRONYMS (LIKE HR)
+# test
+test <- clean_text(data)
+View(test)
