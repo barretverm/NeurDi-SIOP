@@ -103,7 +103,3 @@ clean_text <- function(x){
   
   return(x)
 }
-
-# test
-test <- clean_text(data)
-View(test)
