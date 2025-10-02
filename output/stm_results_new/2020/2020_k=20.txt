@@ -1,0 +1,101 @@
+> labelTopics(mod_2020, n = 10)       # top words per topic
+Topic 1 Top Words:
+ 	 Highest Prob: people, world, much, can, think, like, brain, make, different, way 
+ 	 FREX: differently, world, neurotypical, wire, natural, beautiful, sensory, around, round, accommodate 
+ 	 Lift: hunter, legilimency, unusual, exhaust, nitrate, phosphate, attune, queenie, wire, vibrant 
+ 	 Score: hunter, world, differently, neurotypical, brain, wire, around, people, different, natural 
+Topic 2 Top Words:
+ 	 Highest Prob: listen, podcast, episode, talk, much, can, get, people, new, will 
+ 	 FREX: listen, episode, podcast, summer, podcasts, enjoy, comedy, master, pop, presentation 
+ 	 Lift: sunshine, master, halloween, chuffed, gadsby, hannah, pod, slack, devdiscuss, lab 
+ 	 Score: sunshine, listen, podcast, episode, master, summer, podcasts, opportunity, presentation, enjoy 
+Topic 3 Top Words:
+ 	 Highest Prob: much, workshop, session, us, can, thank, autism, news, share, join 
+ 	 FREX: workshop, session, news, morning, literature, edge, excellent, ticket, reader, chair 
+ 	 Lift: endeavor, russell, dmatalent, individually, bell, workshop, positively, oliver, contemporary, pavilion 
+ 	 Score: endeavor, workshop, session, news, morning, literature, podcast, edge, excellent, join 
+Topic 4 Top Words:
+ 	 Highest Prob: people, good, can, work, much, autistic, one, young, need, win 
+ 	 FREX: siena, congratulation, win, honor, ambassador, castellon, prize, camilla, young, nation 
+ 	 Lift: trail, ocn, mi, countless, anniversary, oppressive, pang, prize, competition, finalist 
+ 	 Score: trail, siena, win, congratulation, ambassador, castellon, honor, prize, young, pang 
+Topic 5 Top Words:
+ 	 Highest Prob: people, can, much, good, like, just, feel, make, autistic, think 
+ 	 FREX: ill, possibly, awkward, mentally, encounter, everyday, carry, feel, stigma, odd 
+ 	 Lift: net, not_process, awkward, weigh, not_great, not_real, assertion, beard, possibly, encounter 
+ 	 Score: net, awkward, ill, possibly, mentally, encounter, feel, everyday, carry, not_process 
+Topic 6 Top Words:
+ 	 Highest Prob: much, people, can, good, new, diversity, justice, system, call, autistic 
+ 	 FREX: lean, british, criminal, evidence, justice, blogpost, cmo, fieldhouse, recap, system 
+ 	 Lift: preach, neuroverse, inaugural, british, probation, cmo, susan, tribute, blogpost, fieldhouse 
+ 	 Score: preach, lean, british, criminal, justice, blogpost, fieldhouse, evidence, cmo, recap 
+Topic 7 Top Words:
+ 	 Highest Prob: much, can, great, need, people, thank, share, work, open, look 
+ 	 FREX: open, great, share, forward, affect, late, thank, fantastic, brilliant, continue 
+ 	 Lift: mod, ucd, selection, stemm, oooh, principal, bárbara, danlos, ehlers, hurtado 
+ 	 Score: mod, great, open, share, need, thank, much, late, forward, can 
+Topic 8 Top Words:
+ 	 Highest Prob: join, much, new, can, will, us, video, learn, pm, dyslexia 
+ 	 FREX: blog, initiative, video, pm, tip, join, webinar, update, technology, newsletter 
+ 	 Lift: drone, literacy, aeron, pwc, rory, stephen, hoffman, sadly, trade, neighbor 
+ 	 Score: drone, join, video, blog, pm, initiative, webinar, tip, dyslexia, new 
+Topic 9 Top Words:
+ 	 Highest Prob: people, can, much, like, autistic, good, autism, also, one, make 
+ 	 FREX: confirm, not_about, camgirl, abuser, dark, miller, cosplayer, fuck, robot, queer 
+ 	 Lift: entrapta, abuser, terf, deviation, comprehension, confirm, definitive, variant, correlate, robot 
+ 	 Score: entrapta, confirm, abuser, not_about, terf, miller, definitive, robot, deviation, cosplayer 
+Topic 10 Top Words:
+ 	 Highest Prob: take, part, different, mind, kind, celebration, week, shout, people, school 
+ 	 FREX: shout, celebration, primary, oppose, aba, kind, agendum, mind, sign, management 
+ 	 Lift: asl, critic, tease, torture, allyship, tribulation, abelist, defeat, frank, array 
+ 	 Score: asl, take, shout, celebration, kind, mind, week, part, different, sign 
+Topic 11 Top Words:
+ 	 Highest Prob: much, can, like, people, bear, good, make, think, perfect, just 
+ 	 FREX: bear, perfect, bank, storm, america, mindfulness, energy, food, pool, wall 
+ 	 Lift: cultivate, drain, rly, ciso, storm, not_fair, bank, bear, insider, integrity 
+ 	 Score: cultivate, bear, perfect, bank, storm, energy, america, mindfulness, chaos, food 
+Topic 12 Top Words:
+ 	 Highest Prob: autism, can, people, autistic, adhd, much, disorder, work, like, spectrum 
+ 	 FREX: ocd, not_know, explain, bias, disorder, colleague, sap, graphic, successful, autism 
+ 	 Lift: ausome, photograph, cobbaert, laurence, defect, hoax, no_shift, organiser, alot, crap 
+ 	 Score: ausome, autism, disorder, explain, not_know, adhd, spectrum, ocd, company, sap 
+Topic 13 Top Words:
+ 	 Highest Prob: people, good, much, work, can, like, opportunity, autistic, get, just 
+ 	 FREX: candidate, gonna, client, pull, talented, opportunity, graduate, ny, pride, secure 
+ 	 Lift: rsd, lump, sachs, td, ny, laurel, curate, nashville, necessarily, pull 
+ 	 Score: rsd, candidate, opportunity, gonna, client, pull, ny, lump, talented, td 
+Topic 14 Top Words:
+ 	 Highest Prob: people, like, autistic, can, much, just, say, thing, think, good 
+ 	 FREX: symbol, wish, loud, rainbow, not_like, actually, say, ppl, not_autistic, thing 
+ 	 Lift: not_become, haley, logical, nobody_notice, memorize, efficient, not_autistic, newspaper, drawing, advent 
+ 	 Score: not_become, people, like, autistic, say, thing, just, symbol, think, wish 
+Topic 15 Top Words:
+ 	 Highest Prob: read, book, can, much, people, good, just, autistic, write, awesome 
+ 	 FREX: awesome, arrive, oral, front, book, aloud, peer, read, copy, chapter 
+ 	 Lift: medieval, clover, kittygarten, not_pressure, wizard, calvin, hobbes, kitty, naoki, aloud 
+ 	 Score: medieval, book, read, awesome, oral, arrive, aloud, front, forthcoming, calvin 
+Topic 16 Top Words:
+ 	 Highest Prob: can, much, people, love, good, find, like, confuse, think, just 
+ 	 FREX: confuse, navigate, alcohol, carrd, netflix, triumph, amid, love, mel, find 
+ 	 Lift: accident, baggs, mel, cannondesign, teleworking, sathyan, swapna, triumph, intentional, carrd 
+ 	 Score: accident, confuse, navigate, carrd, alcohol, love, baggs, netflix, triumph, mel 
+Topic 17 Top Words:
+ 	 Highest Prob: mental, can, people, much, illness, like, need, disability, student, get 
+ 	 FREX: suicide, not_tell, dyslexic, illness, prevention, reject, dsm, grade, paradigm, mental 
+ 	 Lift: classification, occupational, bruh, pocket, bhsp, not_tell, becker, easterseals, gbs, mathematics 
+ 	 Score: classification, mental, illness, not_tell, dyslexic, suicide, student, prevention, reject, dsm 
+Topic 18 Top Words:
+ 	 Highest Prob: support, much, really, work, can, good, help, will, us, please 
+ 	 FREX: daily, follow, support, really, recommend, host, spread, list, staff, link 
+ 	 Lift: craig, pete, daily, humble, museum, sand, benji, jitter, potentia, eve 
+ 	 Score: craig, support, really, daily, follow, work, recommend, book, host, please 
+Topic 19 Top Words:
+ 	 Highest Prob: movement, autism, not_a, identity, disease, people, inside, can, much, disability 
+ 	 FREX: disease, lewis, inside, katherine, reynolds, sticker, identity, google, quick, not_a 
+ 	 Lift: psa, sticker, katherine, reynolds, smh, lewis, shoe, obligation, sammy, resilient 
+ 	 Score: psa, disease, inside, identity, katherine, lewis, reynolds, sticker, not_a, movement 
+Topic 20 Top Words:
+ 	 Highest Prob: people, much, can, good, autism, need, autistic, like, think, just 
+ 	 FREX: need, patience, good, understand, people, thing, think, help, workplace, thank 
+ 	 Lift: jay, patience, mighty, curious, cyp, nail, not_sound, motion, apparent, librarian 
+ 	 Score: jay, patience, mighty, curious, people, need, good, can, thank, think 
